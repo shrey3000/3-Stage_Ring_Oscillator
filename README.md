@@ -37,15 +37,15 @@ With a verified schematic in hand, we will transition to the layout design phase
 
 ![image](https://github.com/shrey3000/3-Stage_Ring_Oscillator/assets/72602113/16144403-9477-4a22-b0ab-54be28503a0d)
 
-**Sarpentine connection**
+**Serpentine connection**
 
-As to maintain uniform parasatics thoughout the design we use some practices and serpentine is one of those.In this practice we try to maintain approximately equal netlength of crucial nets so that we can predict accurate propagation delay of CMOS invertors. 
+As to maintain uniform parasitics thoughout the design we use some practices and serpentine is one of those. In this practice, we try to maintain the approximately equal net length of crucial nets so that we can predict the accurate propagation delay of CMOS invertors. 
 
 ![image](https://github.com/shrey3000/3-Stage_Ring_Oscillator/assets/72602113/a1ef5f28-cb45-4870-90bd-fe6cfba31479)
 
 **Via**
 
-In general the use via is avoided as using via means to drill a hole through the layers while manifacturing which can effect its performance and relaibility. In the analog layout I have used the via to connect "metal1" to "metal2" as I was using "metal2" for the interconnection of CMOS invertors.
+In general, the use of via is avoided as using via means to drill a hole through the layers while manufacturing which can affect its performance and reliability. In the analog layout, I have used the via to connect "metal1" to "metal2" as I was using "metal2" for the interconnection of CMOS invertors.
 
 ![image](https://github.com/shrey3000/3-Stage_Ring_Oscillator/assets/72602113/420462a0-b6cf-45ca-8c69-03bb967ab8da)
 
@@ -54,6 +54,6 @@ In general the use via is avoided as using via means to drill a hole through the
 ![image](https://github.com/shrey3000/3-Stage_Ring_Oscillator/assets/72602113/cb9476cf-7040-4222-9d4d-8499c2c32780)
 
 
-Throughout this project, we will gain valuable insights into analog design principles, circuit behavior, and the intricacies of oscillator architectures. By combining theoretical knowledge with practical implementation, we will bridge the gap between abstract concepts and tangible circuit layouts. The successful completion of this endeavor will equip us with a deeper appreciation for analog design, simulation techniques, and the artistry behind translating electronic ideas into reality.
+Throughout this project, we will gain valuable insights into analog design principles, circuit behaviour, and the intricacies of oscillator architectures. By combining theoretical knowledge with practical implementation, we will bridge the gap between abstract concepts and tangible circuit layouts. The successful completion of this endeavour will equip us with a deeper appreciation for analog design, simulation techniques, and the artistry behind translating electronic ideas into reality.
 
 So, let us embark on this captivating journey of exploration and creation, as we unravel the mysteries of the 3-stage ring oscillator, simulate its behavior, and craft an analog layout that embodies the harmonious fusion of design and engineering.
